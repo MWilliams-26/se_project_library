@@ -86,10 +86,6 @@
   text-decoration: none;
 }
 
-.header__link:hover {
-  color: #1f69c9;
-}
-
 .header__address {
   margin: 0;
   color: #838383;
@@ -164,9 +160,6 @@
   text-decoration: none;
 }
 
-.events__more:hover {
-  color: #1f69c9;
-}
 .events__cover {
   flex-grow: 1;
   flex-shrink: 0;

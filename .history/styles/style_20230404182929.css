@@ -42,10 +42,6 @@
   font-weight: bold;
 }
 
-.nav__link:hover {
-  color: #1f69c9;
-}
-
 .header__title {
   font-size: 66px;
   line-height: 76px;
@@ -84,10 +80,6 @@
 .header__link {
   color: #2f80ed;
   text-decoration: none;
-}
-
-.header__link:hover {
-  color: #1f69c9;
 }
 
 .header__address {
@@ -164,9 +156,6 @@
   text-decoration: none;
 }
 
-.events__more:hover {
-  color: #1f69c9;
-}
 .events__cover {
   flex-grow: 1;
   flex-shrink: 0;
@@ -414,7 +403,6 @@
   margin-left: auto;
   font: #ffffff;
   display: flex;
-  flex-direction: column;
 }
 
 .footer__column_content_social {
