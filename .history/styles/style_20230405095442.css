@@ -384,10 +384,6 @@
   margin: 0 0 32px;
 }
 
-.about__paragraph:last-child {
-  margin: 0;
-}
-
 .about__circle {
   background-color: #2f80ed;
   width: 495px;
@@ -401,7 +397,7 @@
 
 .footer {
   box-sizing: border-box;
-  background-color: #1f1f1f;
+  background-color: #000000;
   padding: 60px 102px 60px 80px;
   font-size: 16px;
   line-height: 20px;
@@ -414,6 +410,8 @@
 
 .footer__column_content_hours {
   margin-left: auto;
+  display: flex;
+  flex-direction: column;
 }
 
 .footer__column_content_social {
@@ -423,6 +421,7 @@
 .footer__logo {
   width: 116px;
   height: 21px;
+  font-size: 20px;
 }
 
 .footer__list {
@@ -450,7 +449,6 @@
   text-decoration: none;
   display: flex;
   align-items: center;
-  gap: 18px;
 }
 
 .footer__column-link:hover {
@@ -463,6 +461,6 @@
 }
 
 .footer__copyright {
-  margin: 108px 0 60px;
+  margin-top: 108px;
   color: white;
 }

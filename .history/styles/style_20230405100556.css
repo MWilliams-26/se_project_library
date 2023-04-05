@@ -450,7 +450,6 @@
   text-decoration: none;
   display: flex;
   align-items: center;
-  gap: 18px;
 }
 
 .footer__column-link:hover {
@@ -463,6 +462,6 @@
 }
 
 .footer__copyright {
-  margin: 108px 0 60px;
+  margin-top: 108px;
   color: white;
 }
