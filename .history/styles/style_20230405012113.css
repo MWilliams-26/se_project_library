@@ -411,12 +411,14 @@
 
 .footer__column_content_hours {
   margin-left: auto;
+  font: #ffffff;
   display: flex;
   flex-direction: column;
 }
 
 .footer__column_content_social {
   margin-left: 100px;
+  font: #ffffff;
 }
 
 .footer__logo {
